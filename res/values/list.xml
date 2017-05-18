@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="white">#FFFFFF</drawable>
+	<drawable name="black">#000000</drawable>
+
+	<dimen name="breadCrumb_size">24px</dimen>
+	<dimen name="time_size">24px</dimen>
+	<dimen name="battery_imagewidth">60px</dimen>
+	<dimen name="battery_imageheight">32px</dimen>
+	<dimen name="battery_padding_top">4px</dimen>
+	<dimen name="statusbar_margin_top">4px</dimen>
+	<dimen name="statusbar_margin_bottom">4px</dimen>
+	<dimen name="statusbar_margin_left">38px</dimen>
+	<dimen name="statusbar_margin_right">55px</dimen>
+	<dimen name="time_margin_left">60px</dimen>
+	<dimen name="battery_margin_left">73px</dimen>
+	<dimen name="statusbar_padding">4px</dimen>
+
+	<dimen name="tag_height">110px</dimen>
+	<dimen name="num_size">72px</dimen>
+	<dimen name="num_width">106px</dimen>
+	<dimen name="num_height">106px</dimen>
+	<dimen name="num_margin_left">10px</dimen>
+
+	<dimen name="title_size">48px</dimen>
+	<dimen name="title_height">69px</dimen>
+	<dimen name="title_margin_bottom">20px</dimen>
+
+	<dimen name="name_size">36px</dimen>
+	<dimen name="name_height">69px</dimen>
+	<dimen name="name_width">500px</dimen>
+	<dimen name="name_margin_top">10px</dimen>
+	<dimen name="name_margin_left">10px</dimen>
+	<dimen name="long_name_width">700px</dimen>
+
+	<dimen name="description_size">20px</dimen>
+	<dimen name="description_height">40px</dimen>
+	<dimen name="description_margin_left">10px</dimen>
+
+	<dimen name="author_size">20px</dimen>
+	<dimen name="author_height">40px</dimen>
+	<dimen name="author_width">200px</dimen>
+	<dimen name="author_margin_top">20px</dimen>
+
+	<dimen name="publisher_size">20px</dimen>
+	<dimen name="publisher_height">40px</dimen>
+	<dimen name="publisher_width">200px</dimen>
+	<dimen name="publisher_margin_top">60px</dimen>
+
+	<dimen name="line_height">2px</dimen>
+	<dimen name="ctrl_font_size">24px</dimen>
+
+	<dimen name="imageview_padding">2px</dimen>
+	<dimen name="imageview_size">151px</dimen>
+</resources>

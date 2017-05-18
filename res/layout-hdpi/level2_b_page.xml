@@ -1,0 +1,282 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/l2textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"  />
+
+    <!-- Row 1 -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/T2BLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/posb1"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/T2BLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+          <ImageView
+              android:id="@+id/posb2"
+              android:layout_width="120dip"
+              android:layout_height="120dip"
+              android:layout_margin="5dp"
+              android:layout_marginTop="10dip"
+              android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/T2BLayout03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+          <ImageView
+            android:id="@+id/posb3"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <!-- Row 2 -->
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/T2BLayout04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/posb4"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/T2BLayout05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+          <ImageView
+            android:id="@+id/posb5"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/T2BLayout06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+          <ImageView
+            android:id="@+id/posb6"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+    </TableRow>
+    
+     <!-- Row 3 -->
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/T2BLayout07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/posb7"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/T2BLayout08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+          <ImageView
+            android:id="@+id/posb8"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/T2BLayout09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+          <ImageView
+            android:id="@+id/posb9"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/toast_loading_book_icon" />
+
+        <TextView
+            android:id="@+id/textItem9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Text"
+            android:textSize="30sp" />
+        </LinearLayout>
+
+    </TableRow>
+    
+</TableLayout>
